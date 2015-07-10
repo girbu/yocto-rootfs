@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+sharedlibdir=/usr/lib
+includedir=/usr/include
+
+Name: libiio
+Description: Library for interfacing IIO devices
+Version: 0.5
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -liio
+Cflags: -I${includedir}
